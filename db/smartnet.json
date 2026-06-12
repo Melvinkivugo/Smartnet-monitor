@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "id": "mqat64xmxbong",
+      "username": "admin",
+      "password": "a3086015c424750e2400222133dd6b63e3b013ed7e76e21afcd6faa3ca60a76e",
+      "role": "admin",
+      "email": "admin@smartnet.local",
+      "created_at": "2026-06-12T10:53:27.812Z"
+    }
+  ],
+  "devices": [
+    {
+      "id": "mqatouoqd1m8o",
+      "name": "Jesse Router",
+      "ip_address": "192.168.1.1",
+      "device_type": "Router",
+      "location": "2nd floor, office 3",
+      "description": "only for the IT department",
+      "status": "online",
+      "last_seen": "2026-06-12T11:13:16.819Z",
+      "uptime_percent": 100,
+      "response_time_ms": 2,
+      "created_at": "2026-06-12T11:08:00.986Z"
+    }
+  ],
+  "monitoring_logs": [
+    {
+      "id": "mqatp71lj1e3n",
+      "device_id": "mqatouoqd1m8o",
+      "status": "online",
+      "response_time_ms": 1,
+      "message": "Response time: 1ms",
+      "checked_at": "2026-06-12T11:08:17.001Z"
+    },
+    {
+      "id": "mqatqhgwgul87",
+      "device_id": "mqatouoqd1m8o",
+      "status": "online",
+      "response_time_ms": 466,
+      "message": "Response time: 466ms",
+      "checked_at": "2026-06-12T11:09:17.168Z"
+    },
+    {
+      "id": "mqatrrjo2btgp",
+      "device_id": "mqatouoqd1m8o",
+      "status": "online",
+      "response_time_ms": 359,
+      "message": "Response time: 359ms",
+      "checked_at": "2026-06-12T11:10:16.884Z"
+    },
+    {
+      "id": "mqats3c1uzbhu",
+      "device_id": "mqatouoqd1m8o",
+      "status": "online",
+      "response_time_ms": 567,
+      "message": "Response time: 567ms",
+      "checked_at": "2026-06-12T11:10:32.161Z"
+    },
+    {
+      "id": "mqatt1vktajqz",
+      "device_id": "mqatouoqd1m8o",
+      "status": "online",
+      "response_time_ms": 401,
+      "message": "Response time: 401ms",
+      "checked_at": "2026-06-12T11:11:16.928Z"
+    },
+    {
+      "id": "mqatuc3hqqcza",
+      "device_id": "mqatouoqd1m8o",
+      "status": "online",
+      "response_time_ms": 299,
+      "message": "Response time: 299ms",
+      "checked_at": "2026-06-12T11:12:16.829Z"
+    },
+    {
+      "id": "mqatvmdu12vmw",
+      "device_id": "mqatouoqd1m8o",
+      "status": "online",
+      "response_time_ms": 2,
+      "message": "Response time: 2ms",
+      "checked_at": "2026-06-12T11:13:16.818Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "mqats3c4i7itn",
+      "device_id": "mqatouoqd1m8o",
+      "device_name": "Jesse Router",
+      "device_ip": "192.168.1.1",
+      "type": "high_latency",
+      "message": "🐢 High latency on \"Jesse Router\" (192.168.1.1): 567ms",
+      "acknowledged": true,
+      "created_at": "2026-06-12T11:10:32.164Z",
+      "acknowledged_at": "2026-06-12T11:11:05.939Z"
+    }
+  ],
+  "settings": {
+    "monitor_interval_seconds": 60,
+    "alert_email": "",
+    "org_name": "SmartNet Monitor"
+  }
+}
