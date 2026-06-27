@@ -1,0 +1,9 @@
+{
+  "name": "smartnet-monitor",
+  "version": "1.0.0",
+  "description": "Web-based network device monitoring and reporting system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
